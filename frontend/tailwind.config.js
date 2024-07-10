@@ -4,13 +4,24 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    // margin: {
-
-    // },
+    extend: {
+          
     width: {
       'mobile': '325px'
     },
-    extend: {},
+
+      colors: {
+        'white': '#FFFFFF',
+        'black': '#000000',
+      },
+
+      fontFamily: {
+        'libre': ['"Libre Caslon Display"', 'serif']
+      }
+    },
+
+
+   
   },
   plugins: [],
 }
