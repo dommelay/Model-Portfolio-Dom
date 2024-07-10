@@ -4,8 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
+    // margin: {
+
+    // },
     width: {
-      
+      'mobile': '325px'
     },
     extend: {},
   },
