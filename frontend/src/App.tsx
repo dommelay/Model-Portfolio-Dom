@@ -2,14 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import DigitalsMobile from './components/mobile/digitals';
-import NavMobile from './components/mobile/navbar';
+import HeaderMobile from './components/mobile/header';
+import NavMobile from './components/mobile/nabvar';
 
 function App() {
   return (
     <div className="App">
 
-      <NavMobile/>
+      <HeaderMobile/>
       <DigitalsMobile/>
+      <NavMobile/>
     </div>
   );
 }
