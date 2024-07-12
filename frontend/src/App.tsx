@@ -4,6 +4,7 @@ import './App.css';
 import DigitalsMobile from './components/mobile/digitals';
 import HeaderMobile from './components/mobile/header';
 import NavMobile from './components/mobile/nabvar';
+import AttributesMobile from './components/mobile/attributes';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
       <HeaderMobile/>
       <DigitalsMobile/>
+      <AttributesMobile/>
       <NavMobile/>
     </div>
   );

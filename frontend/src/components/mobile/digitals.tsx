@@ -10,7 +10,7 @@ const DigitalsMobile: React.FC = () => {
             <img src='/images/Digital1.jpeg' alt= 'Digital Side' className='w-mobile mt-5'/>
             <img src='/images/Digital2.jpeg'  alt= 'Digital Full' className='w-mobile mt-5'/>
             <img src='/images/Digital3.jpeg'  alt= 'Digital Full' className='w-mobile mt-5'/>
-            <img src='/images/Digital4.jpeg'  alt= 'Digital Full' className='w-mobile mt-5'/>
+            <img src='/images/Digital4.jpeg'  alt= 'Digital Full' className='w-mobile mt-5 mb-5'/>
         </div>
         </>
     )
